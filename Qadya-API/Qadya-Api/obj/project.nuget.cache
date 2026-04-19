@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eLKFeBvWDRM=",
+  "success": true,
+  "projectFilePath": "E:\\NXT9-DEPI\\technical\\Project\\Final project\\Qadya-Api\\Qadya-Api\\Qadya.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hadee_hq2jmfg\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.12\\microsoft.aspnetcore.openapi.9.0.12.nupkg.sha512",
+    "C:\\Users\\hadee_hq2jmfg\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\hadee_hq2jmfg\\.nuget\\packages\\scalar.aspnetcore\\2.14.1\\scalar.aspnetcore.2.14.1.nupkg.sha512"
+  ],
+  "logs": []
+}

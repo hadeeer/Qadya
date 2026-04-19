@@ -1,0 +1,6 @@
+E:\NXT9-DEPI\technical\Project\Final project\Qadya-Api\Qadya.Domain\bin\Debug\Qadya.Domain.dll
+E:\NXT9-DEPI\technical\Project\Final project\Qadya-Api\Qadya.Domain\bin\Debug\Qadya.Domain.pdb
+E:\NXT9-DEPI\technical\Project\Final project\Qadya-Api\Qadya.Domain\obj\Debug\Qadya.Domain.csproj.AssemblyReference.cache
+E:\NXT9-DEPI\technical\Project\Final project\Qadya-Api\Qadya.Domain\obj\Debug\Qadya.Domain.csproj.CoreCompileInputs.cache
+E:\NXT9-DEPI\technical\Project\Final project\Qadya-Api\Qadya.Domain\obj\Debug\Qadya.Domain.dll
+E:\NXT9-DEPI\technical\Project\Final project\Qadya-Api\Qadya.Domain\obj\Debug\Qadya.Domain.pdb

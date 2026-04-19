@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Qadya_Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.12" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.14.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Qadya.Data\Qadya.Data.csproj" />
+    <ProjectReference Include="..\Qadya.Domain\Qadya.Domain.csproj" />
+    <ProjectReference Include="..\Qadya.InfraStructure\Qadya.InfraStructure.csproj" />
+  </ItemGroup>
+
+</Project>
