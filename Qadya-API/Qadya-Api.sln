@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36915.13 d17.14
+VisualStudioVersion = 17.14.36915.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qadya.Api", "Qadya-Api\Qadya.Api.csproj", "{602E2EF8-5AB2-4E09-A23A-B0F361CF4947}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qadya.Data", "Qadya.Data\Qadya.Data.csproj", "{389F1019-BEEF-4E0B-BC45-8450EABDEF9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qadya.Data", "Qadya.Data\Qadya.Data.csproj", "{445E5204-9478-568F-8236-2E7263BA1C48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qadya.Domain", "Qadya.Domain\Qadya.Domain.csproj", "{BDE898B4-82F8-4EF8-8547-7809EF7D5502}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qadya.InfraStructure", "Qadya.InfraStructure\Qadya.InfraStructure.csproj", "{6CBA098C-043A-40B9-B587-09B36CB319EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qadya.InfraStructure", "Qadya.InfraStructure\Qadya.InfraStructure.csproj", "{468700B1-3FCB-454B-8F9D-F35BB30F934F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qadya.Domain", "Qadya.Domain\Qadya.Domain.csproj", "{4B2D4811-DA8A-4C23-A515-DC2FC8BF4B2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{602E2EF8-5AB2-4E09-A23A-B0F361CF4947}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{602E2EF8-5AB2-4E09-A23A-B0F361CF4947}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{602E2EF8-5AB2-4E09-A23A-B0F361CF4947}.Release|Any CPU.Build.0 = Release|Any CPU
-		{389F1019-BEEF-4E0B-BC45-8450EABDEF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{389F1019-BEEF-4E0B-BC45-8450EABDEF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{389F1019-BEEF-4E0B-BC45-8450EABDEF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{389F1019-BEEF-4E0B-BC45-8450EABDEF9F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BDE898B4-82F8-4EF8-8547-7809EF7D5502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BDE898B4-82F8-4EF8-8547-7809EF7D5502}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BDE898B4-82F8-4EF8-8547-7809EF7D5502}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BDE898B4-82F8-4EF8-8547-7809EF7D5502}.Release|Any CPU.Build.0 = Release|Any CPU
-		{468700B1-3FCB-454B-8F9D-F35BB30F934F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{468700B1-3FCB-454B-8F9D-F35BB30F934F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{468700B1-3FCB-454B-8F9D-F35BB30F934F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{468700B1-3FCB-454B-8F9D-F35BB30F934F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445E5204-9478-568F-8236-2E7263BA1C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445E5204-9478-568F-8236-2E7263BA1C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445E5204-9478-568F-8236-2E7263BA1C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445E5204-9478-568F-8236-2E7263BA1C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBA098C-043A-40B9-B587-09B36CB319EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBA098C-043A-40B9-B587-09B36CB319EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBA098C-043A-40B9-B587-09B36CB319EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBA098C-043A-40B9-B587-09B36CB319EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2D4811-DA8A-4C23-A515-DC2FC8BF4B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2D4811-DA8A-4C23-A515-DC2FC8BF4B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2D4811-DA8A-4C23-A515-DC2FC8BF4B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2D4811-DA8A-4C23-A515-DC2FC8BF4B2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

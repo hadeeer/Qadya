@@ -23,7 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Qadya.Data\Qadya.Data.csproj" />
     <ProjectReference Include="..\Qadya.Domain\Qadya.Domain.csproj" />
     <ProjectReference Include="..\Qadya.InfraStructure\Qadya.InfraStructure.csproj" />
   </ItemGroup>
