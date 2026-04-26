@@ -10,11 +10,11 @@ namespace Qadya.Data.Models
     {
         public int Id { get; set; }
         public DateTime SessionDate { get; set; }
-        public string Notes { get; set; }
-        public string Result { get; set; }
+        public string? Notes { get; set; }
+        public string? Result { get; set; }
         public string Type { get; set; }
 
-        public int CaseId { get; set; }
+        public int? CaseId { get; set; }
         public Case Case { get; set; }
     }
 }

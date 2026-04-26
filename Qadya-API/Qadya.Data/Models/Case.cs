@@ -16,14 +16,14 @@ namespace Qadya.Data.Models
         public DateTime CreatedAt { get; set; }
         public string Description { get; set; }
 
-        public int ClientId { get; set; }
+        public int? ClientId { get; set; }
         public Client Client { get; set; }
 
-        public int LawyerId { get; set; }
+        public int? LawyerId { get; set; }
         public Lawyer Lawyer { get; set; }
 
-        public ICollection<Session> Sessions { get; set; }
-        public ICollection<Document> Documents { get; set; }
-        public ICollection<Payment> Payments { get; set; }
+        public ICollection<Session> Sessions { get; set; } = new List<Session>();
+        public ICollection<Document> Documents { get; set; } = new HashSet<Document>();
+        public ICollection<Payment> Payments { get; set; } = new HashSet<Payment>();
     }
 }

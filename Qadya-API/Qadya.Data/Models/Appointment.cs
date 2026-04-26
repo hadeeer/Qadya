@@ -13,10 +13,10 @@ namespace Qadya.Data.Models
         public string Status { get; set; }
         public decimal Price { get; set; }
 
-        public int LawyerId { get; set; }
+        public int? LawyerId { get; set; }
         public Lawyer Lawyer { get; set; }
 
-        public int ClientId { get; set; }
+        public int? ClientId { get; set; }
         public Client Client { get; set; }
 
     }

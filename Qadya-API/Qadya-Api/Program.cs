@@ -13,9 +13,9 @@ builder.Services.AddOpenApi();
 // 1. استخراج الـ Connection String من ملف appsettings.json
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// 2. تسجيل الـ DbContext في حاوية الخدمات (Dependency Injection)
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+// 2.database config (Dependency Injection)
+builder.Services.AddDbContext<ApplicationDbContext>(dbconfig =>
+    dbconfig.UseSqlServer(connectionString));
 
 var app = builder.Build();
 

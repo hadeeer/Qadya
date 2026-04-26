@@ -12,7 +12,7 @@ namespace Qadya.Data.Models
         public string FilePath { get; set; }
         public DateTime UploadedAt { get; set; }
 
-        public int CaseId { get; set; }
+        public int? CaseId { get; set; }
         public Case Case { get; set; }
     }
 }
